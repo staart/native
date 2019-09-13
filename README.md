@@ -1,6 +1,6 @@
 # 🏁📱 Staart Native
 
-Staart Native is a smartphone native app starter for SaaS written in TypeScript and React Native using Expo. It has built-in landing views, authentication, settings UIs, and more.
+Staart Native is a smartphone app starter for SaaS written in TypeScript and React Native using Expo. It has built-in authentication and uses Start UI webviews.
 
 **⚠️ WARNING:** This project is currently in the early development stage. Expect breaking changes.
 
