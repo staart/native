@@ -2,6 +2,8 @@
 
 Staart Native is a smartphone native app starter for SaaS written in TypeScript and React Native using Expo. It has built-in landing views, authentication, settings UIs, and more.
 
+**⚠️ WARNING:** This project is currently in the early development stage. Expect breaking changes.
+
 |  | Status |
 | - | - |
 | Build | [![GitHub Actions](https://github.com/o15y/staart-native/workflows/Node%20CI/badge.svg)](https://github.com/o15y/staart-native/actions) [![Travis CI](https://img.shields.io/travis/o15y/staart-native?label=Travis%20CI)](https://travis-ci.org/o15y/staart-native) [![Circle CI](https://img.shields.io/circleci/build/github/o15y/staart-native?label=Circle%20CI)](https://circleci.com/gh/o15y/staart-native) [![Azure Pipelines](https://dev.azure.com/anandchowdhary0001/Staart%20Native/_apis/build/status/o15y.staart-native?branchName=master)](https://dev.azure.com/anandchowdhary0001/Staart%20Native/_build/latest?definitionId=8&branchName=master) |
@@ -32,11 +34,16 @@ yarn ios
 yarn web
 ```
 
-## 💻 Staart Ecosystem
+## 🏁 Staart Ecosystem
 
-- [Staart](https://github.com/o15y/staart), the backend starter for SaaS startups
-- [Staart UI](https://github.com/o15y/staart-ui), the frontend PWA starter for SaaS startups
-- [Staart Native](https://github.com/o15y/staart-native), the native app starter for SaaS startups
+The Staart ecosystem consists of open-source projects to build your SaaS startup, written in TypeScript.
+
+|  |  |  |
+| - | - | - |
+| [🛠️ Staart](https://github.com/o15y/staart) | Node.js backend with RESTful APIs | [![Travis CI](https://img.shields.io/travis/o15y/staart)](https://travis-ci.org/o15y/staart) [![GitHub](https://img.shields.io/github/license/o15y/staart.svg)](https://github.com/o15y/staart/blob/master/LICENSE) |
+| [🌐 Staart UI](https://github.com/o15y/staart-ui) | Frontend Vue.js Progressive Web App | [![Travis CI](https://img.shields.io/travis/o15y/staart-ui)](https://travis-ci.org/o15y/staart-ui) [![GitHub](https://img.shields.io/github/license/o15y/staart-ui.svg)](https://github.com/o15y/staart-ui/blob/master/LICENSE) |
+| [📱 Staart Native](https://github.com/o15y/staart-native) | React Native app for Android and iOS | [![Travis CI](https://img.shields.io/travis/o15y/staart-native)](https://travis-ci.org/o15y/staart-native) [![GitHub](https://img.shields.io/github/license/o15y/staart-native.svg)](https://github.com/o15y/staart-native/blob/master/LICENSE) |
+| [🎨 Staart.css](https://github.com/o15y/staart.css) | Sass/CSS framework and utilities | [![Travis CI](https://img.shields.io/travis/o15y/staart.css)](https://travis-ci.org/o15y/staart.css) [![GitHub](https://img.shields.io/github/license/o15y/staart.css.svg)](https://github.com/o15y/staart.css/blob/master/LICENSE) |
 
 ## 📄 License
 
