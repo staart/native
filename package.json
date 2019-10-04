@@ -1,10 +1,16 @@
 {
+  "name": "@staart/native",
+  "version": "1.0.1",
+  "repository": "git@github.com:o15y/staart-native",
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "increment-package": "node setup/increment.js"
   },
   "dependencies": {
     "expo": "^34.0.1",
@@ -22,11 +28,17 @@
     "@types/react": "^16.8.23",
     "@types/react-native": "^0.57.65",
     "babel-preset-expo": "^6.0.0",
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.8",
     "jest-expo": "^34.0.0",
     "typescript": "^3.4.5"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn increment-package && git add ."
+    }
+  },
   "jest": {
     "preset": "react-native"
-  },
-  "private": true
+  }
 }
